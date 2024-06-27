@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://images.unsplash.com/photo-1659628117536-c1f80f950709?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #333;
+}
+
+.assignment {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.assignment:last-child {
+  border-bottom: none;
+}
+
+.assignment h2 {
+  margin: 0;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.assignment p {
+  margin: 5px 0;
+  font-size: 1em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.assignment .due-date {
+  color: grey;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.assignment .links a {
+  font-weight: 500;
+  display: inline-block;
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.assignment .links a:hover {
+  text-decoration: underline;
+}
+
+.assignment .links a i {
+  margin-right: 5px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer i {
+  margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .assignment h2 {
+    font-size: 1.2em;
+  }
+
+  .assignment p {
+    font-size: 0.9em;
+  }
+
+  .assignment .due-date {
+    font-size: 0.8em;
+  }
+
+  .assignment .links a {
+    font-size: 0.8em;
+  }
+
+  .assignment .status {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .assignment h2 {
+    font-size: 1em;
+  }
+
+  .assignment p {
+    font-size: 0.8em;
+  }
+
+  .assignment .due-date {
+    font-size: 0.7em;
+  }
+
+  .assignment .links a {
+    font-size: 0.7em;
+  }
+
+  .assignment .status {
+    font-size: 0.7em;
+  }
+}
